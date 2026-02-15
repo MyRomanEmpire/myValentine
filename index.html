@@ -162,9 +162,9 @@
         }
 
         button {
-            padding: 20px 55px;
+            padding: 15px 30px;
             font-size: 1.4em;
-            font-weight: 700;
+            font-weight: 400;
             border: none;
             border-radius: 50px;
             cursor: pointer;
@@ -173,6 +173,7 @@
             position: relative;
             text-transform: uppercase;
             letter-spacing: 2px;
+            font-size: 20px;
         }
 
         .yes-btn {
@@ -379,7 +380,7 @@
 
         createFloatingHearts();
 
-        
+
         document.addEventListener('mousemove', (e) => {
             if (Math.random() > 0.9) {
                 createSparkle(e.clientX, e.clientY);
